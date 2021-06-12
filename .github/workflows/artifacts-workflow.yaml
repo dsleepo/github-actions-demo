@@ -1,6 +1,7 @@
 on: [push]
 jobs:
   upload-artifact:
+    runs-on: ubuntu-latest
     steps:
       - shell: bash
         run: |
